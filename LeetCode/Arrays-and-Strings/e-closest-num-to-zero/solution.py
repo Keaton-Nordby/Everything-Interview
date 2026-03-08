@@ -17,5 +17,5 @@ s = Solution()
 print(s.findClosestNumber([-4, -2, 1, 4, 8]))  # Output: 1
 
 
-# Time Complexity - O(n)
-# Space Complexity - O(1)
+# Time - O(n)
+# Space - O(1)

@@ -22,13 +22,9 @@ class Solution(object):
             
             
             
-                
-        
-
-
 s = Solution()
 print(s.mergeAlternately(word1="ttt", word2="ccccccc"))  # Output: tctctctcccc
 
 
 # Time Complexity - O(n)
-# Space Complexity - O(1)
+# Space Complexity - O(n + m) - depends on the length of the two inputs and merging is not inplace so therefore cannot be O(1)
