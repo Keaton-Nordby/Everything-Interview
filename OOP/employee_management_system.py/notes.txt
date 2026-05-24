@@ -1,0 +1,27 @@
+Employee Project Management System
+
+A software organization wants to develop a console-based Employee Project Management System using Python. 
+The system should be designed using Object-Oriented Programming (OOP) principles and should manage departments, 
+employees, and their project work.
+
+Core Requirements
+The application must support the following operations:
+
+ - Create and manage departments
+ - Register employees and associate them with departments
+ - Assign employees to projects and track their working hours
+ - Maintain a mapping of employee contributions per project
+ - Enforce a project budget constraint based on total hours
+ - Identify and flag projects where the allocated budget is exceeded
+
+
+Business Rule
+Each project has a predefined maximum budget (measured in hours).
+
+If the total logged hours exceed this limit, the system must flag the project as a budget overrun.
+
+Expected Output Format
+    --- PROJECT SUMMARY ---
+
+    Project: AI Automation  |  Total Hours: 180  |  BUDGET EXCEEDED
+    Project: Backend API    |  Total Hours: 120  |  Within Budget
