@@ -21,7 +21,7 @@ Each project has a predefined maximum budget (measured in hours).
 If the total logged hours exceed this limit, the system must flag the project as a budget overrun.
 
 Expected Output Format
-    --- PROJECT SUMMARY ---
 
+    --- PROJECT SUMMARY ---
     Project: AI Automation  |  Total Hours: 180  |  BUDGET EXCEEDED
     Project: Backend API    |  Total Hours: 120  |  Within Budget
